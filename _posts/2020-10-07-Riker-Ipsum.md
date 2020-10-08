@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Riker Ipsum
-author: {{ site.user.name }}
+author: mike_robertson
 tags: blog
 --- 
 
