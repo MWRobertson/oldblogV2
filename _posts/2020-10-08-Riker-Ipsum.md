@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Riker Ipsum
-author: {{ user }}
+author: {{ user.name }}
 tags: blog
 --- 
 
