@@ -3,3 +3,11 @@ theme: jekyll-theme-minimal
 title: mikerobertson.info
 description: a blog
 logo: https://avatars.githubusercontent.com/mwrobertson
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Mike Robertson"
