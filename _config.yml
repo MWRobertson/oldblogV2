@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 
 title: mikerobertson.info
 description: a blog
-logo: {{ user.avatar_url }}
+logo: https://avatars.githubusercontent.com/mwrobertson
 
 show_downloads: false
 
