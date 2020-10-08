@@ -6,9 +6,7 @@ layout: default
 
 {% for post in site.posts %}
 
-[{{ post.title }}]({{ port.url }})
-
-{{ post.excerpt }}
+{{ post.content }}
 * * *
 
 {% endfor %}
