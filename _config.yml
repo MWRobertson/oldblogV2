@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+
+title: mikerobertson.info
+description: a blog
+
+show_downloads: false
