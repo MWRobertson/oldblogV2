@@ -4,3 +4,7 @@ title: mikerobertson.info
 description: a blog
 
 show_downloads: false
+
+plugsin:
+  - jekyll-octicons
+  - jekyll-github-metadata
