@@ -2,6 +2,7 @@
 layout: post
 title: Riker Ipsum
 author: {{ user }}
+tags: blog
 --- 
 
 Ensign Babyface! Damage report! Smooth as an android's bottom, eh, Data? Talk about going nowhere fast. Worf, It's better than music. It's jazz. Our neural pathways have become accustomed to your sensory input patterns. Besides, you look good in a dress. Congratulations - you just destroyed the Enterprise. This is not about revenge. This is about justice. The Enterprise computer system is controlled by three primary main processor cores, cross-linked with a redundant melacortz ramistat, fourteen kiloquad interface modules. I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. and attack the Romulans. Not if I weaken first. That might've been one of the shortest assignments in the history of Starfleet. A lot of things can change in twelve years, Admiral. I recommend you don't fire until you're within 40,000 kilometers. 
