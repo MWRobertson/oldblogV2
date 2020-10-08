@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Riker Ipsum 2
-author: Mike
 tags: blog
 ---
 
