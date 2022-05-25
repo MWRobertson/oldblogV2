@@ -8,21 +8,4 @@ Because the machinery of an enterprise network moves slowly, there could be a si
 
 The best way I've come up with for retrieving this information is by querying the LDAP and Kerberos SRV records for the retiring site in DNS. In an effort to automate that check, I've created a quick function called Get-SiteCodeCoverage. 
 
-```
-function Get-SiteCodeCoverage {
-
-  [CmdletBinding()]
-  param(
-    [Parameter(Mandatory=$TRUE)][ValidateNotNullOrEmpty()][String]$SiteCode,
-    [Parameter(Mandatory=$TRUE)][ValidateNotNullOrEmpty()][String]$ZoneName = $env:USERDNSDOMAIN,
-    [Parameter(Mandatory=$TRUE)][ValidateNotNullOrEmpty()][String]$DNSServer
-  )
-  
-  Get-DnsServerResourceRecord -ZoneName $ZoneName -ComputerName $DNSServer -RRType Srv |`
-   ? {$_.HostName -eq "_kerberos.tcp.$SiteCode._sites.dc._msdcs" -or`
-   $_.HostName -eq "_ldap._tcp.$SiteCode._sites.dc._msdcs"} |`
-   Select HostName, RecordType -ExpandProperty RecordData
-}
-```
-
 <script src="https://gist.github.com/MWRobertson/5a2bd201c336f7ac4615e216fcde80ba.js"></script>
