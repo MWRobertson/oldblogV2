@@ -4,7 +4,6 @@ plugins:
 
 title: mikerobertson.info
 description: a blog
-logo: https://avatars.githubusercontent.com/mwrobertson
 
 defaults:
   -
